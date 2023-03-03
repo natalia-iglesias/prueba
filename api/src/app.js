@@ -27,9 +27,11 @@ server.use(morgan('dev'));
 server.use(
   require('express-session')({
     secret: SECRET,
-    resave: true,
+    resave: false,
     saveUninitialized: true,
+    cookie: { secure: true }
   })
+
 );
 
 require('./authentication/index');
