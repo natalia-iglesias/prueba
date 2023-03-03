@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+
+//get ---> form--> ruta nueva 
+/* router.get("/logout", (req, res) => {
+  req.logout((err) => {
+    if (err) return next(err);
+    req.session.destroy(function (err) {
+      if (err) return next(err);
+      res.redirect("/");
+    });
+  });
+}); */
