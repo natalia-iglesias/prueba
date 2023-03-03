@@ -19,7 +19,7 @@ import SingUp from './pages/SingUp';
 // import { getEntities } from './redux/actions/entitiesActions';
 import ColorModeSwitcher from './Components/ColorModeSwitcher';
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://prueba-production-07ba.up.railway.app/'
 
 const App = () => {
   // const dispatch = useDispatch();
